@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /* 
+            Medidas Absolutas:
+            cm, mm, in, px, pt, pc
+            
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            font-weight: bolder;
+            /* lighter normal bold bolder */
+            font-style: italic;
+            text-decoration: underline;
+        }
+
+        h1 {
+            
+            /* shorthand font 
+            - font-style -> font-weight -> font-size -> font-family
+
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'Times New Roman', Times, serif;
+        }
+
+        h2 {
+            font: bold 2em 'Arial', Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet voluptate, laborum, possimus quod sint cupiditate excepturi atque iusto, sed non quidem totam vel! Veniam quo accusantium vitae architecto! Illum, soluta? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, officiis hic dignissimos ad saepe distinctio corrupti consequuntur ab porro veritatis nulla expedita, modi nisi molestias ratione sapiente architecto libero dolorum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus error sint, voluptate doloremque ab hic? A nam repudiandae, tenetur voluptatibus, recusandae exercitationem atque commodi quisquam, impedit ad odio possimus cumque!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium magni voluptates voluptas nihil? Quidem ad nam praesentium maiores deserunt similique asperiores sunt, beatae cupiditate. Quisquam dolor molestiae rem facilis modi!</p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati molestiae itaque numquam veritatis, sapiente ipsa placeat, ipsam dolores architecto ad necessitatibus explicabo inventore voluptatum quia odio expedita natus nostrum. Dicta!</p>
+    <p>Para mudar a família da fonte, basta utilizarmos font-family</p>
+    <p>Para mudar o tamanho da fonte, basta utilizarmos font-size</p>
+    <p>Para mudar o peso da fonte, basta utilizarmos font-weight</p>
+    <p>Para mudar o estilo da fonte, basta utilizarmos font-style</p>
+</body>
+</html>

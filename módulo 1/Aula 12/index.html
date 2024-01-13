@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>Você pode acessar os meus <a href="https://github.com/souzaiarley?tab=repositories" target="_blank" rel="external">repositórios públicos no GitHub.</a></p>
+    <p>Você também pode acessar o meu <a href="https://www.instagram.com/_souzaiarley/" target="_blank" rel="external">perfil no Instagram.</a></p>
+    <p>Usamos a tag &lt;a&gt; para criar links. É recomendado que se o link for para um site que não é seu, utilize target="_blank" para que o link seja aberto em uma nova aba. Bem como rel="external".</p>
+    <h1>Usando links internos</h1>
+    <p>Esta é a primeira página do site. Se você quiser, pode acessar também a minha <a href="pag002.html" target="_self" rel="next">segunda página</a>.</p>
+    <p>Você também pode acessar a nossa <a href="noticias/pag003.html" target="_self" rel="next">página de notícias</a>.</p>
+    <p>Aqui também utilizamos target="_self", para que o link seja aberto na mesma aba.</p>
+    <p>Também utilizamos rel="next" para indicar que a página seguinte é a que está sendo linkada e rel="prev" para indicar que a página anterior é a que está sendo linkada.</p>
+    <p>Por último utilizamos rel="nofollow" para indicar que o link não é um link de confiança. Esta última tag foi usada para linkar ao Facebook na página 02.</p>
+    <h1>Links para download</h1>
+    <ul>
+        <li><a href="livro/book.pdf" download="book.pdf" type="application/pdf">Baixar o livro em pdf</a></li>
+        <li><a href="livro/book.rar" download="book.rar" type="application/zip">Livro compactado em ZIP</a></li>
+    </ul>
+</body>
+</html>

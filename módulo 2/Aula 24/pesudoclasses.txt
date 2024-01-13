@@ -1,0 +1,21 @@
+Pseudo-Classes são palavras chaves adicionadas em um seletor após um sinal de dois pontos e especificam um estado especial de um elemento.
+
+Exemplos de pseudo-classes:
+
+:hover - Aplica estilos quando o mouse está sobre o elemento. Muito usado para efeitos de destaque em links e elementos interativos.
+
+:active - Aplica estilos quando o elemento está ativamente sendo clicado. Útil para fornecer feedback visual durante o clique.
+
+:focus - Aplica estilos quando o elemento recebe foco, geralmente usado em campos de formulário.
+
+:nth-child(n) - Seleciona o enésimo filho de um elemento pai. Pode ser útil para estilizar elementos de uma lista de maneira alternada.
+
+:first-child - Seleciona o primeiro filho de um elemento pai. Útil para estilizar o primeiro item em uma lista.
+
+:last-child - Seleciona o último filho de um elemento pai.
+
+:checked – é utilizada para selecionar um elemento <radio>, <checkbox> ou <option> que esteja marcado ou com estado ligado.
+
+:visited - é uma Pseudo-classe do CSS para indicar se o link em questão já foi visitado pelo usuário.
+
+:empty - representa qualquer elemento que não tenha filhos. Aqui, filhos podem ser outros elementos ou blocos de texto (incluindo espaços em branco).

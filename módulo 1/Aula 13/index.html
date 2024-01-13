@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>
+        Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.
+    </p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexivel">
+    </picture>
+    <p>
+        <a href="teste.html" target="_self" rel="next">Outro teste</a>
+    </p>
+    <p>
+        Utilizamos a tag &lt;picture&gt; para podermos aplicar imagems dinamicas, ou seja, imagens que se adaptam ao tamanho da tela do dispositivo que está sendo utilizado para acessar o site.
+    </p>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio controls>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.wav" type="audio/wav">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <p>Seu navegador não suporta esse recurso.</p>
+    </audio>
+    <p>Utilizamos a tag &lt;audio&gt; para reproduzir audios no nosso site. Devemos utilizar também a tag &lt;source&gt; para garantir a compatibilidade do navegador com a reprodução dos audios em vários formatos. Se o navegador não conseguir reproduzir nenhum dos arquivos, devemos colocar uma mensagem de erro.</p>
+    <p>Também podemos adicionar alguns atributos a tag &lt;audio&gt;, como "autoplay", "controls", "loop", "muted" e "preload".</p>
+    <dl>
+        <dt>autoplay</dt>
+        <dd>Reproduz o áudio sem automaticamente, assim que carregado.</dd>
+        <dt>controls</dt>
+        <dd>Exibe o controle de mídia.</dd>
+        <dt>loop</dt>
+        <dd>Repete o áudio assim que acabar.</dd>
+        <dt>muted</dt>
+        <dd>Deixa o controle com a opção mudo ativado.</dd>
+        <dt>preload</dt>
+        <dd>este atributo deve ser utilizado em arquivos de áudio grande, ele assume três valores, que são:
+            none – Não carrega o arquivo, quando inicializado.
+            auto – Carrega o arquivo de áudio quando inicializado.
+            metadata – Carrega os meta dados.</dd>
+    </dl>
+</body>
+</html>

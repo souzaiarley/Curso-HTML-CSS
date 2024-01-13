@@ -1,0 +1,13 @@
+Pseudo-elementos são palavras chave adicionadas em um seletor após dois sinais de dois pontos e permitem que você formate um pedaço específico do elemento referenciado.
+
+Exemplos de pseudo-elementos:
+
+::before - adiciona um conteúdo antes de um elemento selecionado
+
+::after - adiciona um conteúdo após um elemento selecionado
+
+::first-letter - utilizado para selecionar e personalizar a primeira letra de um bloco de texto dentro de um elemento
+
+::first-line - utilizado para selecionar e personalizar a primeira linha de um bloco de texto dentro de um elemento
+
+::selection - aplica estilos para partes do documento que foram selecionadas pelo usuário
