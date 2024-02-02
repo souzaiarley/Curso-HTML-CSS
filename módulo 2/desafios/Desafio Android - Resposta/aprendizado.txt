@@ -1,0 +1,5 @@
+1- O uso do article dentro da main mostrou-se uma abordagem interessante.
+2- Usar a tag <strong> para colocar algo em destaque.
+3- O uso do maior que (>) refere-se ao seletor filho direto.
+4- Podemos adicionar variáveis no :root do arquivo css.
+5- Usar * para aplicar estilos a todas as caixas html.
