@@ -8,17 +8,21 @@
     padding: 0;
 }
 
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 header {
     background-color: black;
     color: white;
-    max-height: 180px;
+    max-height: 170px;
     text-align: center;
     padding: 50px;
 }
 
 header > h1 {
     font-family: "Passion One", Arial, Helvetica, sans-serif;
-    font-size: 4.8em;
+    font-size: 9.5em;
     font-weight: normal;
 }
 
@@ -26,30 +30,54 @@ header > h1 > span {
     font-size: 0.7em;
 }
 
-header > p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.9em;
-}
-
-header > p > a {
-    font-size: 1.1em;
+a {
+    font-weight: bold;
     text-decoration: none;
     color: white;
 }
 
-header > p > a:hover {
+a:hover {
     text-decoration: underline;
+}
+
+section {
+    padding-left: 30px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 section > p {
     font-family: "Sriracha", cursive;
-    font-size: 1.7em;
-    padding-left: 30px;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    font-size: 3em;
+    padding: 4px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.imagem {
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    background-size: cover;
+    background-position: center right;
+    background-attachment: fixed;
+}
+
+.imagem > p {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
 }
 
 #segunda {
-    color: #F4FAF4;
     background-image: url(../imagens/background001.jpg);
+}
+
+#quinta {
+    background-image: url(../imagens/background002.jpg);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
