@@ -22,7 +22,7 @@ header {
 
 header > h1 {
     font-family: "Passion One", Arial, Helvetica, sans-serif;
-    font-size: 9.5em;
+    font-size: 10vw;
     font-weight: normal;
 }
 
@@ -48,7 +48,7 @@ section {
 
 section > p {
     font-family: "Sriracha", cursive;
-    font-size: 3em;
+    font-size: 3.5vw;
     padding: 4px;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -58,7 +58,7 @@ section > p {
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
     background-size: cover;
-    background-position: center right;
+    background-position: right center;
     background-attachment: fixed;
 }
 
